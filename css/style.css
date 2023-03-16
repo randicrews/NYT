@@ -51,7 +51,7 @@ header button+button{
     width: 20%;
 }
 .weather{
-    background: url(weather.png);
+    background: url(img/weather.png);
     background-size: 150%;
     background-repeat: no-repeat;
     background-position: 100%;
@@ -145,7 +145,7 @@ section.BS{
     float: left;
 }
 .BS div{
-    background: url(soldier.webp);
+    background: url(img/soldier.webp);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
@@ -242,7 +242,7 @@ section.bigSide>section{
 }
 .topR div{
     height: 200px;
-    background: url(madrid.jpg);
+    background: url(img/madrid.jpg);
     background-size: cover;
     background-position: 20%;
     margin: 10px;
@@ -312,7 +312,7 @@ span.name{
 div.charlie{
     width: 50px;
     height: 50px;
-    background: url(charles.png);
+    background: url(img/charles.png);
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 40px;
@@ -331,7 +331,7 @@ div.terf{
     height: 150px;
     margin-top: 10px;
     margin-left: 10px;
-    background: url(jk\ rowling.jpg);
+    background: url(img/jk\ rowling.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     
