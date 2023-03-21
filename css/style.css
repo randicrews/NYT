@@ -61,6 +61,7 @@ header button+button{
     background-size: 150%;
     background-repeat: no-repeat;
     background-position: 100%;
+    background-size: contain;
 }
 header section ul{
     width: 100%;
@@ -399,6 +400,7 @@ div.terf{
     }
     .weather{
         display: none;
+
     }
     .logo{
         align-self: center;
