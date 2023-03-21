@@ -415,8 +415,9 @@ div.terf{
 }
 
 @media screen and (max-device-width:850px){
-    header section+section>div{
-        display: none;
+    header>section+section{
+        flex-direction: column;
+        height: 200px;
     }
     .weather{
         display: none;
@@ -435,6 +436,14 @@ div.terf{
     }
 }
 @media screen and (max-width:850px){
+    nav li:nth-child(n+17){
+        display: none;
+    }
+    header div+div{
+        display: none;
+    }
+}
+@media screen and (max-device-width:850px){
     nav li:nth-child(n+17){
         display: none;
     }
