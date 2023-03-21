@@ -3,6 +3,12 @@
     list-style: none;
     text-decoration: none;
 }
+a{
+    color: black;
+}
+button a{
+    color: white;
+}
 .sneakyBuns{
     display: none;
 }
@@ -387,7 +393,11 @@ div.terf{
     }
 }
 @media screen and (max-width:850px){
-    header section+section>div{
+    header>section+section{
+        flex-direction: column;
+        height: 200px;
+    }
+    .weather{
         display: none;
     }
     .logo{
@@ -408,6 +418,9 @@ div.terf{
     header section+section>div{
         display: none;
     }
+    .weather{
+        display: none;
+    }
     .logo{
         align-self: center;
         width: 100%;
@@ -421,14 +434,11 @@ div.terf{
         display: none;
     }
 }
-@media screen and (max-width:808px){
+@media screen and (max-width:850px){
     nav li:nth-child(n+17){
         display: none;
     }
     header div+div{
-        display: none;
-    }
-    header .topbuttons{
         display: none;
     }
 }
@@ -453,6 +463,36 @@ div.terf{
     }
     .logo{
         display: inline;
+    }
+    header .topbuttons{
+        display: none;
+    }
+
+}
+@media screen and (max-device-width: 600px) {
+    .sneakyBuns{
+        display: inline-block
+    }
+    nav li:nth-child(n+8){
+        display: none;
+    }
+    section.BS{
+        display: none;
+    }
+    section.topL{
+        width: 100%;
+    }
+    .bottomL{
+        width: 100%;
+    }
+    img{
+        display: none;
+    }
+    .logo{
+        display: inline;
+    }
+    header .topbuttons{
+        display: none;
     }
 
 }
